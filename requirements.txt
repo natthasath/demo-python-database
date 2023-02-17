@@ -1,0 +1,3 @@
+pymongo
+cx_Oracle
+psycopg2
