@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "demo-python-database"
+version = "0.1.0"
+description = ""
+authors = ["natthasath <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_database"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.3.3"
+cx-oracle = "^8.3.0"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
